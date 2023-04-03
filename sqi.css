@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.logo{
+    width: 50px ;      
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.oka{
+    
+    color: springgreen;
+    background-color: yellow;
+}
+
+.learnable{
+    color:white;
+    padding: 14%;
+    text-align: center;
+    font-size: xx-small;
+    font-family: 'Times New Roman', Times, serif;
+    background-image:linear-gradient(20deg, rgba(192, 37, 37, 0.37), rgba(43, 49, 122, 0.6)), url("./Main-pg-scaled.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+.learnable:hover{
+    transition: ease-in;
+}
+.learnable h1{
+    font-size: 80px;
+}
+.learnable h4{
+    font-size: 40px;
+}
+.flexDisplay{
+    display: flex;
+    grid: 10px;
+    gap: 20px;
+}
+.flexChild1{
+    background-color: #080640;
+    color:#EFD8D5;
+    width: 500px;
+    padding: 20px;
+    height: -100px;
+}
+.flexChild2{
+    background-color: #D8A600;
+    color: #EFD8D5;  
+    width: 500px;
+    padding: 20px;
+}
+.flexChild3{
+    background-color: #080640;
+    color: #EFD8D5;  
+    width: 500px;
+    padding: 20px;
+}
+.flexChild3:hover{
+    transform: skewX(10deg);
+}
+.chuks{
+    color:white;
+    padding: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image:linear-gradient(20deg, rgba(45, 16, 173, 0.37), rgba(11, 116, 107, 0.6)), url("./DSC_9054-scaled.jpg");
+    background-size: 100%;
+    background-position: center;   
+    
+}
+.chuks:hover{
+    display: flex;
+    transform: skewX(300px);
+    justify-content: space-between;
+}
+.know{
+    width: 50%;
+}
+@media screen and (min-width:481px) {
+    .chuks{
+        background-image:linear-gradient(20deg, rgba(59, 179, 22, 0.37), rgba(156, 43, 221, 0.6)), url("./DSC_9054-scaled.jpg");
+        background-size: 100%;
+        background-position: center; 
+        color: black;  
+        background-color: white;
+    }
+    
+}
+@media screen and (min-width:769px) {
+    .chuks{
+        background-image:linear-gradient(20deg, rgba(107, 11, 185, 0.37), rgba(8, 26, 189, 0.6)), url("./DSC_9054-scaled.jpg");
+        background-size: 100%;
+        background-position: center;
+        color: white;       
+    }
+    
+}
+@media screen and (min-width:481px) {
+    .oka{
+        color: blue;
+        background-color: black;
+
+    }
+
+
+    
+}
+@media screen and (min-width:796px) {
+    .oka{
+        color: mediumvioletred;
+        background-color: goldenrod;
+    }
+}
+    
+
+@media screen and (min-width:481px) {
+    .learnable{
+        background-image:linear-gradient(20deg, rgba(13, 202, 114, 0.37), rgba(180, 25, 128, 0.6)), url("./Main-pg-scaled.jpg");
+        background-size: 100%;
+        background-position: center;
+        color: crimson;
+    }
+    
+}
+@media screen and (min-width:796px) {
+    .learnable{
+        background-image:linear-gradient(20deg, rgba(116, 13, 73, 0.37), rgba(9, 207, 207, 0.6)), url("./Main-pg-scaled.jpg");
+        background-size: 100%;
+        background-position: center;
+        color: white;
+    }
+
+    
+}
+@media screen and (min-width:481px){
+    .flexDisplay{       
+        /* display: block; */
+    }
+    
+}
